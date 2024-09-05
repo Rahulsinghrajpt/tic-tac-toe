@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#msg{
+    font-size:8vmin;
+    text-decoration: underline;
+    color: #ffffc7;
+}
+
+h1{
+    font-size:15vmin;
+    text-decoration: underline;
+    color: black;
+}
+body{
+    background-color: #BA6E6E;
+    text-align: center;
+}
+.container{
+    height: 70vh;/*jo total space hai ushme se 70% hisha container ko*/
+    display: flex; /*sab box ko ek line mai lane ke liye */
+    justify-content: center;
+    align-items: center;/*centre mai lane ke liye*/
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;/*jo total space hai ushme se 60% hisha game wale part ko ko*/
+    width: 60vmin;
+    display: flex; /*sab box ko ek line mai lane ke liye */
+    flex-wrap: wrap;/*yahi ki aagar jitna hum ushko space diye hai agar next box ke liye wo space nhi aa raha hai tab next line mai box chala jayega*/
+    justify-content: center;
+    align-items: center;/*centre mai lane ke liye*/
+    gap: 1.5vmin;/*sab box ke bich gap dene ke lliye..*/
+}
+.box{
+    height: 18vmin;/*jo total space hai ushme se 18% hisha har ek box ko diye hai aaur ushke according hum sab ko height and width diye hai */
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color:rgb(47, 127, 170);
+    background-color: rgb(83, 165, 127);
+    
+    
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    width: 28vmin;
+    margin: 10px;
+}
+#newbtn{
+    width: 28vmin;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.hide{
+    display: none;
+}
